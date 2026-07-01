@@ -1,0 +1,1140 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <!-- ==========================================================
+         METADATOS
+    =========================================================== -->
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0">
+
+    <title>
+
+        Galería | Atlantic Blue Diving
+
+    </title>
+
+    <meta
+        name="description"
+        content="Explora la galería de Atlantic Blue Diving. Descubre paisajes submarinos, fauna marina, pecios y momentos inolvidables vividos durante nuestras inmersiones.">
+
+    <meta
+        name="robots"
+        content="index,follow">
+
+    <meta
+        name="theme-color"
+        content="#0B4D73">
+
+    <meta
+        property="og:type"
+        content="website">
+
+    <meta
+        property="og:title"
+        content="Galería | Atlantic Blue Diving">
+
+    <meta
+        property="og:description"
+        content="Imágenes que muestran la belleza del Atlántico bajo la superficie.">
+
+    <meta
+        property="og:image"
+        content="assets/images/og/gallery.webp">
+
+    <meta
+        property="og:url"
+        content="https://atlanticbluediving.com/galeria.html">
+
+    <link
+        rel="canonical"
+        href="https://atlanticbluediving.com/galeria.html">
+
+    <link
+        rel="icon"
+        href="assets/icons/favicon.ico">
+
+    <link
+        rel="stylesheet"
+        href="assets/css/variables.css">
+
+    <link
+        rel="stylesheet"
+        href="assets/css/style.css">
+
+    <link
+        rel="stylesheet"
+        href="assets/css/animations.css">
+
+    <link
+        rel="stylesheet"
+        href="assets/css/responsive.css">
+
+</head>
+
+<body class="gallery-page">
+
+    <!-- ==========================================================
+         LOADER
+    =========================================================== -->
+
+    <div
+        class="loader"
+        aria-hidden="true">
+
+        <div class="loader__spinner"></div>
+
+    </div>
+
+    <!-- ==========================================================
+         HEADER
+    =========================================================== -->
+
+    <header class="header">
+
+        <nav
+            class="navbar container"
+            aria-label="Principal">
+
+            <a
+                href="index.html"
+                class="logo"
+                aria-label="Atlantic Blue Diving">
+
+                Atlantic Blue
+                <span>Diving</span>
+
+            </a>
+
+            <button
+                class="nav-toggle"
+                aria-expanded="false"
+                aria-controls="navigation">
+
+                <span></span>
+                <span></span>
+                <span></span>
+
+            </button>
+
+            <div class="nav-overlay"></div>
+
+            <div
+                id="navigation"
+                class="nav-menu">
+
+                <ul class="nav-list">
+
+                    <li>
+
+                        <a
+                            href="index.html"
+                            class="nav-link"
+                            data-i18n="nav.home">
+
+                            Inicio
+
+                        </a>
+
+                    </li>
+
+                    <li>
+
+                        <a
+                            href="cursos.html"
+                            class="nav-link"
+                            data-i18n="nav.courses">
+
+                            Cursos
+
+                        </a>
+
+                    </li>
+
+                    <li>
+
+                        <a
+                            href="salidas.html"
+                            class="nav-link"
+                            data-i18n="nav.dives">
+
+                            Salidas
+
+                        </a>
+
+                    </li>
+
+                    <li>
+
+                        <a
+                            href="galeria.html"
+                            class="nav-link is-active"
+                            data-i18n="nav.gallery">
+
+                            Galería
+
+                        </a>
+
+                    </li>
+
+                    <li>
+
+                        <a
+                            href="contacto.html"
+                            class="nav-link"
+                            data-i18n="nav.contact">
+
+                            Contacto
+
+                        </a>
+
+                    </li>
+
+                </ul>
+
+                <div class="navbar-actions">
+
+                    <div class="language-selector">
+
+                        <button data-language="es">ES</button>
+                        <button data-language="en">EN</button>
+                        <button data-language="gl">GL</button>
+
+                    </div>
+
+                    <button
+                        class="theme-toggle"
+                        aria-label="Cambiar tema">
+
+                        🌙
+
+                    </button>
+
+                </div>
+
+            </div>
+
+        </nav>
+
+    </header>
+
+    <!-- ==========================================================
+         MAIN
+    =========================================================== -->
+
+    <main>
+
+        <!-- ======================================================
+             HERO
+        ======================================================= -->
+
+        <section class="page-hero">
+
+            <video
+                class="page-hero-video"
+                autoplay
+                muted
+                loop
+                playsinline
+                preload="metadata"
+                poster="assets/images/gallery/hero.webp">
+
+                <source
+                    src="assets/videos/gallery.mp4"
+                    type="video/mp4">
+
+            </video>
+
+            <div class="page-hero-overlay"></div>
+
+            <div class="container">
+
+                <div class="page-hero-content">
+
+                    <span
+                        class="eyebrow"
+                        data-i18n="gallery.hero.eyebrow">
+
+                        Instantes inolvidables
+
+                    </span>
+
+                    <h1
+                        data-i18n="gallery.hero.title">
+
+                        El océano a través de nuestros ojos
+
+                    </h1>
+
+                    <p
+                        class="hero-description"
+                        data-i18n="gallery.hero.description">
+
+                        Sumérgete en una colección de fotografías que muestran
+                        la riqueza del Atlántico, la emoción de cada inmersión y
+                        la belleza de un mundo que pocos llegan a conocer.
+
+                    </p>
+
+                    <div class="hero-buttons">
+
+                        <a
+                            href="#gallery"
+                            class="btn btn-primary"
+                            data-i18n="gallery.hero.primary">
+
+                            Explorar galería
+
+                        </a>
+
+                        <a
+                            href="contacto.html"
+                            class="btn btn-secondary"
+                            data-i18n="gallery.hero.secondary">
+
+                            Vive la experiencia
+
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- ======================================================
+             FILTROS
+        ======================================================= -->
+
+        <section
+            class="section gallery-filters-section">
+
+            <div class="container">
+
+                <div
+                    class="gallery-filters"
+                    role="toolbar"
+                    aria-label="Filtros de la galería">
+
+                    <button
+                        class="gallery-filter is-active"
+                        data-filter="all"
+                        aria-pressed="true"
+                        data-i18n="gallery.filters.all">
+
+                        Todo
+
+                    </button>
+
+                    <button
+                        class="gallery-filter"
+                        data-filter="wrecks"
+                        aria-pressed="false"
+                        data-i18n="gallery.filters.wrecks">
+
+                        Pecios
+
+                    </button>
+
+                    <button
+                        class="gallery-filter"
+                        data-filter="fauna"
+                        aria-pressed="false"
+                        data-i18n="gallery.filters.fauna">
+
+                        Fauna
+
+                    </button>
+
+                    <button
+                        class="gallery-filter"
+                        data-filter="reef"
+                        aria-pressed="false"
+                        data-i18n="gallery.filters.reef">
+
+                        Arrecifes
+
+                    </button>
+
+                    <button
+                        class="gallery-filter"
+                        data-filter="students"
+                        aria-pressed="false"
+                        data-i18n="gallery.filters.students">
+
+                        Alumnos
+
+                    </button>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- ======================================================
+             MASONRY GALLERY
+             (continúa en la Parte 2)
+        ======================================================= -->
+
+              <!-- ======================================================
+             GALERÍA MASONRY
+        ======================================================= -->
+
+        <section
+            id="gallery"
+            class="section gallery-section"
+            aria-labelledby="gallery-title">
+
+            <div class="container">
+
+                <header class="section-header">
+
+                    <span
+                        class="section-eyebrow"
+                        data-i18n="gallery.section.eyebrow">
+
+                        Explora el Atlántico
+
+                    </span>
+
+                    <h2
+                        id="gallery-title"
+                        data-i18n="gallery.section.title">
+
+                        Una ventana al mundo submarino
+
+                    </h2>
+
+                    <p
+                        class="section-description"
+                        data-i18n="gallery.section.description">
+
+                        Cada fotografía refleja un instante irrepetible vivido
+                        durante nuestras inmersiones. Haz clic sobre cualquier
+                        imagen para verla a pantalla completa.
+
+                    </p>
+
+                </header>
+
+                <div
+                    class="gallery-grid"
+                    role="list">
+
+                    <!-- ==========================================
+                         IMAGEN 1
+                    =========================================== -->
+
+                    <article
+                        class="gallery-item"
+                        role="listitem"
+                        data-category="wrecks"
+                        data-reveal>
+
+                        <figure>
+
+                            <img
+                                src="assets/images/gallery/wreck-01-small.webp"
+                                data-full="assets/images/gallery/wreck-01.webp"
+                                data-caption="gallery.captions.wreck01"
+                                alt="Pecio cubierto por bancos de peces"
+                                loading="lazy"
+                                width="700"
+                                height="900">
+
+                            <figcaption
+                                data-i18n="gallery.captions.wreck01">
+
+                                Pecio cubierto por bancos de peces.
+
+                            </figcaption>
+
+                        </figure>
+
+                    </article>
+
+                    <!-- ==========================================
+                         IMAGEN 2
+                    =========================================== -->
+
+                    <article
+                        class="gallery-item"
+                        role="listitem"
+                        data-category="fauna"
+                        data-reveal>
+
+                        <figure>
+
+                            <img
+                                src="assets/images/gallery/octopus-small.webp"
+                                data-full="assets/images/gallery/octopus.webp"
+                                data-caption="gallery.captions.octopus"
+                                alt="Pulpo observando desde una roca"
+                                loading="lazy"
+                                width="700"
+                                height="700">
+
+                            <figcaption
+                                data-i18n="gallery.captions.octopus">
+
+                                Pulpo común escondido entre las rocas.
+
+                            </figcaption>
+
+                        </figure>
+
+                    </article>
+
+                    <!-- ==========================================
+                         IMAGEN 3
+                    =========================================== -->
+
+                    <article
+                        class="gallery-item"
+                        role="listitem"
+                        data-category="reef"
+                        data-reveal>
+
+                        <figure>
+
+                            <img
+                                src="assets/images/gallery/reef-small.webp"
+                                data-full="assets/images/gallery/reef.webp"
+                                data-caption="gallery.captions.reef"
+                                alt="Arrecife cubierto de gorgonias"
+
+                                loading="lazy"
+                                width="700"
+                                height="1000">
+
+                            <figcaption
+                                data-i18n="gallery.captions.reef">
+
+                                Un arrecife lleno de color y vida.
+
+                            </figcaption>
+
+                        </figure>
+
+                    </article>
+
+                    <!-- ==========================================
+                         IMAGEN 4
+                    =========================================== -->
+
+                    <article
+                        class="gallery-item"
+                        role="listitem"
+                        data-category="students"
+                        data-reveal>
+
+                        <figure>
+
+                            <img
+                                src="assets/images/gallery/students-small.webp"
+                                data-full="assets/images/gallery/students.webp"
+                                data-caption="gallery.captions.students"
+                                alt="Grupo de alumnos durante una inmersión"
+
+                                loading="lazy"
+                                width="700"
+                                height="900">
+
+                            <figcaption
+                                data-i18n="gallery.captions.students">
+
+                                Aprendiendo juntos bajo el agua.
+
+                            </figcaption>
+
+                        </figure>
+
+                    </article>
+
+                    <!-- ==========================================
+                         IMAGEN 5
+                    =========================================== -->
+
+                    <article
+                        class="gallery-item"
+                        role="listitem"
+                        data-category="fauna"
+                        data-reveal>
+
+                        <figure>
+
+                            <img
+                                src="assets/images/gallery/nudibranch-small.webp"
+                                data-full="assets/images/gallery/nudibranch.webp"
+                                data-caption="gallery.captions.nudibranch"
+                                alt="Nudibranquio sobre una roca"
+
+                                loading="lazy"
+                                width="700"
+                                height="700">
+
+                            <figcaption
+                                data-i18n="gallery.captions.nudibranch">
+
+                                Los pequeños detalles también sorprenden.
+
+                            </figcaption>
+
+                        </figure>
+
+                    </article>
+
+                    <!-- ==========================================
+                         IMAGEN 6
+                    =========================================== -->
+
+                    <article
+                        class="gallery-item"
+                        role="listitem"
+                        data-category="reef"
+                        data-reveal>
+
+                        <figure>
+
+                            <img
+                                src="assets/images/gallery/light-small.webp"
+                                data-full="assets/images/gallery/light.webp"
+                                data-caption="gallery.captions.light"
+                                alt="Rayos de luz atravesando el agua"
+
+                                loading="lazy"
+                                width="700"
+                                height="1000">
+
+                            <figcaption
+                                data-i18n="gallery.captions.light">
+
+                                La luz transforma completamente el paisaje.
+
+                            </figcaption>
+
+                        </figure>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- ======================================================
+             EXPERIENCIAS
+             (continúa en la Parte 3)
+        ======================================================= -->
+
+              <!-- ======================================================
+             EXPERIENCIAS
+        ======================================================= -->
+
+        <section
+            class="section gallery-experience"
+            aria-labelledby="experience-title">
+
+            <div class="container">
+
+                <div class="experience-layout">
+
+                    <div
+                        class="experience-content"
+                        data-reveal>
+
+                        <span
+                            class="section-eyebrow"
+                            data-i18n="gallery.experience.eyebrow">
+
+                            Más que fotografías
+
+                        </span>
+
+                        <h2
+                            id="experience-title"
+                            data-i18n="gallery.experience.title">
+
+                            Cada inmersión deja recuerdos para toda la vida
+
+                        </h2>
+
+                        <p
+                            data-i18n="gallery.experience.description">
+
+                            Detrás de cada imagen hay una historia: un primer
+                            bautismo, un encuentro inesperado con la fauna
+                            marina, la exploración de un pecio histórico o la
+                            emoción de compartir una inmersión con nuevos amigos.
+
+                        </p>
+
+                        <div class="experience-highlights">
+
+                            <article class="highlight-item">
+
+                                <strong>300+</strong>
+
+                                <span
+                                    data-i18n="gallery.stats.dives">
+
+                                    Inmersiones realizadas
+
+                                </span>
+
+                            </article>
+
+                            <article class="highlight-item">
+
+                                <strong>150+</strong>
+
+                                <span
+                                    data-i18n="gallery.stats.students">
+
+                                    Alumnos certificados
+
+                                </span>
+
+                            </article>
+
+                            <article class="highlight-item">
+
+                                <strong>40+</strong>
+
+                                <span
+                                    data-i18n="gallery.stats.sites">
+
+                                    Puntos de inmersión
+
+                                </span>
+
+                            </article>
+
+                        </div>
+
+                    </div>
+
+                    <figure
+                        class="experience-image"
+                        data-reveal>
+
+                        <img
+                            src="assets/images/gallery/experience.webp"
+                            alt="Buceador observando un banco de peces"
+                            loading="lazy"
+                            width="900"
+                            height="1200">
+
+                    </figure>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- ======================================================
+             RESPETO POR EL OCÉANO
+        ======================================================= -->
+
+        <section
+            class="section ocean-commitment"
+            aria-labelledby="commitment-title">
+
+            <div class="container">
+
+                <header class="section-header">
+
+                    <span
+                        class="section-eyebrow"
+                        data-i18n="gallery.commitment.eyebrow">
+
+                        Conservación marina
+
+                    </span>
+
+                    <h2
+                        id="commitment-title"
+                        data-i18n="gallery.commitment.title">
+
+                        Fotografiar sin alterar el ecosistema
+
+                    </h2>
+
+                    <p
+                        class="section-description"
+                        data-i18n="gallery.commitment.description">
+
+                        Todas las imágenes de esta galería reflejan nuestro
+                        compromiso con un buceo responsable. Respetamos la fauna,
+                        evitamos el contacto con el fondo y fomentamos una
+                        observación consciente del entorno.
+
+                    </p>
+
+                </header>
+
+                <div class="commitment-grid">
+
+                    <article
+                        class="commitment-card"
+                        data-reveal>
+
+                        <div
+                            class="commitment-icon"
+                            aria-hidden="true">
+
+                            🪸
+
+                        </div>
+
+                        <h3
+                            data-i18n="gallery.commitment.coral.title">
+
+                            No tocar la vida marina
+
+                        </h3>
+
+                        <p
+                            data-i18n="gallery.commitment.coral.text">
+
+                            La mejor fotografía es aquella que no altera el
+                            comportamiento natural de los animales.
+
+                        </p>
+
+                    </article>
+
+                    <article
+                        class="commitment-card"
+                        data-reveal>
+
+                        <div
+                            class="commitment-icon"
+                            aria-hidden="true">
+
+                            ♻️
+
+                        </div>
+
+                        <h3
+                            data-i18n="gallery.commitment.clean.title">
+
+                            Océanos más limpios
+
+                        </h3>
+
+                        <p
+                            data-i18n="gallery.commitment.clean.text">
+
+                            Siempre que es posible retiramos pequeños residuos
+                            encontrados durante nuestras inmersiones.
+
+                        </p>
+
+                    </article>
+
+                    <article
+                        class="commitment-card"
+                        data-reveal>
+
+                        <div
+                            class="commitment-icon"
+                            aria-hidden="true">
+
+                            📷
+
+                        </div>
+
+                        <h3
+                            data-i18n="gallery.commitment.photo.title">
+
+                            Fotografía responsable
+
+                        </h3>
+
+                        <p
+                            data-i18n="gallery.commitment.photo.text">
+
+                            Buscamos capturar momentos auténticos sin perseguir
+                            ni manipular a los animales.
+
+                        </p>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- ======================================================
+             CTA
+        ======================================================= -->
+
+        <section
+            class="section gallery-cta">
+
+            <div class="container">
+
+                <div
+                    class="cta-banner"
+                    data-reveal>
+
+                    <span
+                        class="section-eyebrow"
+                        data-i18n="gallery.cta.eyebrow">
+
+                        Tu próxima fotografía aún no existe
+
+                    </span>
+
+                    <h2
+                        data-i18n="gallery.cta.title">
+
+                        Ven a descubrir el Atlántico con nosotros
+
+                    </h2>
+
+                    <p
+                        data-i18n="gallery.cta.description">
+
+                        Cada inmersión es diferente. La siguiente gran imagen
+                        podría formar parte de tu propia historia.
+
+                    </p>
+
+                    <div class="cta-actions">
+
+                        <a
+                            href="salidas.html"
+                            class="btn btn-primary"
+                            data-i18n="gallery.cta.primary">
+
+                            Ver próximas salidas
+
+                        </a>
+
+                        <a
+                            href="contacto.html"
+                            class="btn btn-outline"
+                            data-i18n="gallery.cta.secondary">
+
+                            Contactar
+
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- ======================================================
+             LIGHTBOX
+             (continúa en la Parte 4)
+        ======================================================= -->
+
+              <!-- ======================================================
+             LIGHTBOX
+        ======================================================= -->
+
+        <div
+            class="lightbox"
+            aria-hidden="true"
+            role="dialog"
+            aria-modal="true"
+            aria-labelledby="lightbox-caption">
+
+            <button
+                class="lightbox-close"
+                type="button"
+                aria-label="Cerrar galería">
+
+                &times;
+
+            </button>
+
+            <button
+                class="lightbox-prev"
+                type="button"
+                aria-label="Imagen anterior">
+
+                &#10094;
+
+            </button>
+
+            <figure class="lightbox-figure">
+
+                <img
+                    class="lightbox-image"
+                    src=""
+                    alt="">
+
+                <figcaption
+                    id="lightbox-caption"
+                    class="lightbox-caption">
+
+                </figcaption>
+
+            </figure>
+
+            <button
+                class="lightbox-next"
+                type="button"
+                aria-label="Imagen siguiente">
+
+                &#10095;
+
+            </button>
+
+            <div
+                class="lightbox-counter"
+                aria-live="polite">
+
+                1 / 1
+
+            </div>
+
+        </div>
+
+    </main>
+
+    <!-- ==========================================================
+         FOOTER
+    =========================================================== -->
+
+    <footer class="footer">
+
+        <div class="container">
+
+            <div class="footer-content">
+
+                <div class="footer-brand">
+
+                    <h2>
+
+                        Atlantic Blue Diving
+
+                    </h2>
+
+                    <p
+                        data-i18n="footer.description">
+
+                        Compartimos la belleza del océano con respeto,
+                        formación y experiencias que permanecen para siempre.
+
+                    </p>
+
+                </div>
+
+                <nav
+                    class="footer-nav"
+                    aria-label="Enlaces del pie de página">
+
+                    <a
+                        href="index.html"
+                        data-i18n="nav.home">
+
+                        Inicio
+
+                    </a>
+
+                    <a
+                        href="cursos.html"
+                        data-i18n="nav.courses">
+
+                        Cursos
+
+                    </a>
+
+                    <a
+                        href="salidas.html"
+                        data-i18n="nav.dives">
+
+                        Salidas
+
+                    </a>
+
+                    <a
+                        href="contacto.html"
+                        data-i18n="nav.contact">
+
+                        Contacto
+
+                    </a>
+
+                </nav>
+
+            </div>
+
+            <div class="footer-bottom">
+
+                <p>
+
+                    &copy; 2026 Atlantic Blue Diving.
+
+                    <span
+                        data-i18n="footer.rights">
+
+                        Todos los derechos reservados.
+
+                    </span>
+
+                </p>
+
+            </div>
+
+        </div>
+
+    </footer>
+
+    <!-- ==========================================================
+         SCHEMA.ORG
+    =========================================================== -->
+
+    <script type="application/ld+json">
+    {
+      "@context":"https://schema.org",
+      "@type":"ImageGallery",
+      "name":"Atlantic Blue Diving Gallery",
+      "description":"Galería fotográfica de inmersiones, fauna marina y experiencias de buceo.",
+      "url":"https://atlanticbluediving.com/galeria.html"
+    }
+    </script>
+
+    <!-- ==========================================================
+         JAVASCRIPT
+    =========================================================== -->
+
+    <script
+        src="assets/js/main.js"
+        defer></script>
+
+    <script
+        src="assets/js/navbar.js"
+        defer></script>
+
+    <script
+        src="assets/js/language.js"
+        defer></script>
+
+    <script
+        src="assets/js/gallery.js"
+        defer></script>
+
+</body>
+
+</html>
