@@ -1136,3 +1136,103 @@ class Gallery {
         }
 
     }
+
+    /* ==============================================================
+     * PUBLIC API
+     * ============================================================== */
+
+    refresh() {
+
+        this.cacheDom();
+
+        this.observeImages();
+
+        this.observeLayout();
+
+        this.scheduleLayout();
+
+    }
+
+
+    openByElement(element) {
+
+        if (!element) return;
+
+        const index =
+            this.visibleItems.indexOf(element);
+
+        if (index !== -1) {
+
+            this.open(index, element);
+
+        }
+
+    }
+
+
+    getCurrentItem() {
+
+        return this.visibleItems[
+            this.currentIndex
+        ] || null;
+
+    }
+
+
+    getVisibleItems() {
+
+        return [...this.visibleItems];
+
+    }
+
+
+    /* ==============================================================
+     * CLEANUP
+     * ============================================================== */
+
+    destroy() {
+
+        this.abortController.abort();
+
+        this.lazyObserver?.disconnect();
+
+        this.resizeObserver?.disconnect();
+
+        this.mutationObserver?.disconnect();
+
+        cancelAnimationFrame(this.layoutFrame);
+
+    }
+
+}
+
+
+/* ==============================================================
+ * INITIALIZATION
+ * ============================================================== */
+
+document.addEventListener(
+
+    'DOMContentLoaded',
+
+    () => {
+
+        const gallery = new Gallery();
+
+        gallery.init();
+
+        window.AtlanticBlue = Object.freeze({
+
+            ...(window.AtlanticBlue || {}),
+
+            gallery
+
+        });
+
+    },
+
+    {
+        once: true
+    }
+
+);
