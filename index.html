@@ -1,108 +1,128 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="es" data-theme="dark">
 
 <head>
 
     <meta charset="UTF-8">
 
-    <meta
-        name="viewport"
+    <meta name="viewport"
         content="width=device-width, initial-scale=1.0">
 
     <title>Atlantic Blue Diving | Centro de Buceo en Galicia</title>
 
-    <meta
-        name="description"
+    <meta name="description"
         content="Centro de buceo en Galicia. Bautismos, cursos PADI, inmersiones guiadas y experiencias inolvidables en el Atlántico.">
 
-    <meta
-        name="keywords"
-        content="Buceo Galicia, PADI Galicia, Bautismo de Buceo, Centro de Buceo, Rías Baixas">
+    <meta name="keywords"
+        content="Buceo Galicia, Centro de Buceo, Cursos PADI, Bautismo de Buceo">
 
-    <meta
-        name="author"
+    <meta name="author"
         content="Elena Guardia">
 
-    <meta
-        name="theme-color"
+    <meta name="theme-color"
         content="#071826">
 
-    <link
-        rel="preconnect"
+    <meta property="og:type"
+        content="website">
+
+    <meta property="og:title"
+        content="Atlantic Blue Diving">
+
+    <meta property="og:description"
+        content="Descubre el Atlántico con nosotros.">
+
+    <meta property="og:image"
+        content="assets/images/og-image.webp">
+
+    <meta property="og:url"
+        content="https://atlanticbluediving.com">
+
+    <link rel="icon"
+        href="assets/icons/favicon.ico">
+
+    <link rel="manifest"
+        href="manifest.json">
+
+    <link rel="preconnect"
         href="https://fonts.googleapis.com">
 
-    <link
-        rel="preconnect"
+    <link rel="preconnect"
         href="https://fonts.gstatic.com"
         crossorigin>
 
-    <link
-        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap"
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap"
         rel="stylesheet">
 
-    <link
-        rel="stylesheet"
+    <!-- Lucide Icons -->
+
+    <script src="https://unpkg.com/lucide@latest"></script>
+
+    <link rel="stylesheet"
         href="css/variables.css">
 
-    <link
-        rel="stylesheet"
+    <link rel="stylesheet"
         href="css/style.css">
 
-    <link
-        rel="stylesheet"
+    <link rel="stylesheet"
         href="css/animations.css">
 
-    <link
-        rel="stylesheet"
+    <link rel="stylesheet"
         href="css/responsive.css">
 
 </head>
 
 <body>
 
-    <!-- ===================================== -->
-    <!-- FLOATING ACTION BAR                   -->
-    <!-- ===================================== -->
+    <!-- ===================== -->
+    <!-- Floating Buttons      -->
+    <!-- ===================== -->
 
-    <div class="floating-bar">
+    <aside class="floating-bar">
 
-        <a href="#" aria-label="WhatsApp">
-            💬
+        <a href="#contacto"
+            aria-label="Contacto">
+
+            <i data-lucide="message-circle"></i>
+
         </a>
 
-        <a href="#" aria-label="Ubicación">
-            📍
+        <a href="#mapa"
+            aria-label="Mapa">
+
+            <i data-lucide="map-pin"></i>
+
         </a>
 
-        <a href="#" aria-label="Volver arriba">
-            ↑
+        <a href="#inicio"
+            aria-label="Volver arriba">
+
+            <i data-lucide="arrow-up"></i>
+
         </a>
 
-    </div>
+    </aside>
 
-    <!-- ===================================== -->
-    <!-- HEADER                                -->
-    <!-- ===================================== -->
+    <!-- ===================== -->
+    <!-- HEADER                -->
+    <!-- ===================== -->
 
     <header>
 
         <nav class="navbar">
 
-            <div class="logo">
+            <a href="#inicio"
+                class="logo">
 
-                <h2>
+                Atlantic Blue Diving
 
-                    Atlantic Blue Diving
-
-                </h2>
-
-            </div>
+            </a>
 
             <ul class="nav-links">
 
                 <li>
 
-                    <a href="#inicio">
+                    <a href="#inicio"
+                        data-i18n="menu.home">
 
                         Inicio
 
@@ -112,7 +132,8 @@
 
                 <li>
 
-                    <a href="#servicios">
+                    <a href="#servicios"
+                        data-i18n="menu.services">
 
                         Servicios
 
@@ -122,7 +143,8 @@
 
                 <li>
 
-                    <a href="#experiencias">
+                    <a href="#experiencias"
+                        data-i18n="menu.experiences">
 
                         Experiencias
 
@@ -132,7 +154,8 @@
 
                 <li>
 
-                    <a href="#galeria">
+                    <a href="#galeria"
+                        data-i18n="menu.gallery">
 
                         Galería
 
@@ -142,7 +165,8 @@
 
                 <li>
 
-                    <a href="#contacto">
+                    <a href="#contacto"
+                        data-i18n="menu.contact">
 
                         Contacto
 
@@ -152,27 +176,55 @@
 
             </ul>
 
-            <div class="nav-buttons">
+            <div class="nav-actions">
+
+                <!-- Selector idioma -->
+
+                <select
+                    id="language-selector"
+                    aria-label="Idioma">
+
+                    <option value="es">
+
+                        ES
+
+                    </option>
+
+                    <option value="en">
+
+                        EN
+
+                    </option>
+
+                    <option value="gl">
+
+                        GL
+
+                    </option>
+
+                </select>
+
+                <!-- Tema -->
 
                 <button
                     id="theme-toggle"
                     class="theme-toggle"
                     aria-label="Cambiar tema">
 
-                    🌙
+                    <i
+                        id="theme-icon"
+                        data-lucide="moon"></i>
 
                 </button>
 
-                <a
-                    href="#contacto"
+                <a href="#contacto"
                     class="btn-outline">
 
                     Contacto
 
                 </a>
 
-                <a
-                    href="#"
+                <a href="#contacto"
                     class="btn-primary">
 
                     Reservar
@@ -181,23 +233,23 @@
 
             </div>
 
-            <div class="hamburger">
+            <button
+                class="hamburger"
+                aria-label="Abrir menú">
 
                 <span></span>
-
+                <span></span>
                 <span></span>
 
-                <span></span>
-
-            </div>
+            </button>
 
         </nav>
 
     </header>
 
-    <!-- ===================================== -->
-    <!-- HERO                                 -->
-    <!-- ===================================== -->
+    <!-- ===================== -->
+    <!-- HERO                  -->
+    <!-- ===================== -->
 
     <section
         id="inicio"
@@ -207,7 +259,8 @@
             autoplay
             muted
             loop
-            playsinline>
+            playsinline
+            poster="assets/images/hero-fallback.webp">
 
             <source
                 src="assets/videos/hero.mp4"
@@ -217,48 +270,53 @@
 
         <div class="hero-overlay"></div>
 
-        <!-- Las burbujas se generarán automáticamente con JavaScript -->
+        <!-- Burbujas dinámicas -->
 
         <div id="bubbles"></div>
 
+        <!-- Rayos de luz -->
+
+        <div class="light-rays"></div>
+
         <div class="hero-content">
 
-            <p class="hero-pretitle">
+            <p
+                class="hero-pretitle"
+                data-i18n="hero.pretitle">
 
-                GALICIA · ATLÁNTICO · EXPERIENCIAS ÚNICAS
+                GALICIA · ATLÁNTICO · EXPERIENCIAS
 
             </p>
 
-            <h1>
+            <h1
+                data-i18n="hero.title">
 
                 Sumérgete en una aventura
-                que recordarás toda la vida.
+                inolvidable.
 
             </h1>
 
-            <p>
+            <p
+                data-i18n="hero.description">
 
-                Descubre los fondos marinos de Galicia con instructores certificados,
-                grupos reducidos y experiencias adaptadas tanto para principiantes
-                como para buceadores avanzados.
+                Descubre algunos de los mejores fondos marinos del norte de España
+                acompañado por instructores certificados.
 
             </p>
 
             <div class="hero-buttons">
 
-                <a
-                    href="#servicios"
+                <a href="#servicios"
                     class="btn-primary">
 
-                    Descubrir experiencias
+                    Descubrir
 
                 </a>
 
-                <a
-                    href="#contacto"
+                <a href="#contacto"
                     class="btn-outline">
 
-                    Solicitar información
+                    Contactar
 
                 </a>
 
@@ -268,654 +326,34 @@
 
         <a
             href="#servicios"
-            class="scroll-indicator">
+            class="scroll-indicator"
+            aria-label="Bajar">
 
-            ↓
+            <i data-lucide="chevrons-down"></i>
 
         </a>
 
     </section>
 
-        <!-- ===================================== -->
-    <!-- SERVICIOS                             -->
-    <!-- ===================================== -->
+    <!-- ===================== -->
+    <!-- OLA SVG               -->
+    <!-- ===================== -->
 
-    <section
-        id="servicios"
-        class="services fade-up">
+    <div class="wave-divider">
 
-        <div class="wave wave-top">
+        <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 1440 320"
+            preserveAspectRatio="none">
 
-            <!-- SVG de ola -->
+            <path
+                fill="currentColor"
+                d="M0,160L48,170.7C96,181,192,203,288,218.7C384,235,480,245,576,224C672,203,768,149,864,149.3C960,149,1056,203,1152,208C1248,213,1344,171,1392,149.3L1440,128L1440,320L0,320Z">
 
-        </div>
+            </path>
 
-        <div class="section-title">
+        </svg>
 
-            <p>
+    </div>
 
-                EXPERIENCIAS
-
-            </p>
-
-            <h2>
-
-                Todo lo necesario para descubrir el océano
-
-            </h2>
-
-        </div>
-
-        <div class="services-grid">
-
-            <article class="service-card zoom">
-
-                <img
-                    src="assets/images/discover.webp"
-                    alt="Bautismo de buceo">
-
-                <h3>
-
-                    Bautismo de Buceo
-
-                </h3>
-
-                <p>
-
-                    Tu primera inmersión acompañado en todo momento por un instructor certificado.
-
-                </p>
-
-                <a
-                    href="bautismos.html">
-
-                    Descubrir →
-
-                </a>
-
-            </article>
-
-            <article class="service-card zoom">
-
-                <img
-                    src="assets/images/openwater.webp"
-                    alt="Curso Open Water">
-
-                <h3>
-
-                    Cursos PADI
-
-                </h3>
-
-                <p>
-
-                    Aprende desde cero o continúa tu formación con certificaciones internacionales.
-
-                </p>
-
-                <a
-                    href="cursos.html">
-
-                    Ver cursos →
-
-                </a>
-
-            </article>
-
-            <article class="service-card zoom">
-
-                <img
-                    src="assets/images/trips.webp"
-                    alt="Inmersiones guiadas">
-
-                <h3>
-
-                    Inmersiones Guiadas
-
-                </h3>
-
-                <p>
-
-                    Descubre pecios, paredes, cuevas y reservas marinas de Galicia.
-
-                </p>
-
-                <a
-                    href="salidas.html">
-
-                    Explorar →
-
-                </a>
-
-            </article>
-
-        </div>
-
-    </section>
-
-    <!-- ===================================== -->
-    <!-- ABOUT                                 -->
-    <!-- ===================================== -->
-
-    <section class="about">
-
-        <div class="about-image fade-left">
-
-            <img
-                src="assets/images/about.webp"
-                alt="Instructor ayudando a una alumna">
-
-        </div>
-
-        <div class="about-content fade-right">
-
-            <p class="section-subtitle">
-
-                MÁS DE DOS DÉCADAS BAJO EL AGUA
-
-            </p>
-
-            <h2>
-
-                Seguridad, experiencia y pasión por el mar.
-
-            </h2>
-
-            <p>
-
-                Cada inmersión está preparada con el máximo cuidado para que solo tengas que preocuparte de disfrutar del Atlántico.
-
-            </p>
-
-            <ul class="features">
-
-                <li>✔ Instructores certificados.</li>
-
-                <li>✔ Material revisado periódicamente.</li>
-
-                <li>✔ Seguro incluido.</li>
-
-                <li>✔ Grupos reducidos.</li>
-
-                <li>✔ Fotografía submarina opcional.</li>
-
-            </ul>
-
-            <a
-                href="contacto.html"
-                class="btn-primary">
-
-                Conócenos
-
-            </a>
-
-        </div>
-
-    </section>
-
-    <!-- ===================================== -->
-    <!-- ESTADÍSTICAS                          -->
-    <!-- ===================================== -->
-
-    <section class="stats">
-
-        <div class="stat">
-
-            <h2
-                class="counter"
-                data-target="2500">
-
-                0
-
-            </h2>
-
-            <p>
-
-                Inmersiones realizadas
-
-            </p>
-
-        </div>
-
-        <div class="stat">
-
-            <h2
-                class="counter"
-                data-target="1800">
-
-                0
-
-            </h2>
-
-            <p>
-
-                Alumnos certificados
-
-            </p>
-
-        </div>
-
-        <div class="stat">
-
-            <h2
-                class="counter"
-                data-target="22">
-
-                0
-
-            </h2>
-
-            <p>
-
-                Años de experiencia
-
-            </p>
-
-        </div>
-
-        <div class="stat">
-
-            <h2
-                class="counter"
-                data-target="4.9">
-
-                0
-
-            </h2>
-
-            <p>
-
-                Valoración media
-
-            </p>
-
-        </div>
-
-    </section>
-
-        <!-- ===================================== -->
-    <!-- GALERÍA                               -->
-    <!-- ===================================== -->
-
-    <section
-        id="galeria"
-        class="gallery fade-up">
-
-        <div class="section-title">
-
-            <p>
-
-                GALERÍA
-
-            </p>
-
-            <h2>
-
-                Descubre el Atlántico a través de nuestros ojos
-
-            </h2>
-
-        </div>
-
-        <div class="gallery-grid">
-
-            <img src="assets/images/gallery/gallery-01.webp" alt="Pulpo">
-            <img src="assets/images/gallery/gallery-02.webp" alt="Banco de peces">
-            <img src="assets/images/gallery/gallery-03.webp" alt="Pecio">
-            <img src="assets/images/gallery/gallery-04.webp" alt="Anémona">
-            <img src="assets/images/gallery/gallery-05.webp" alt="Estrella de mar">
-            <img src="assets/images/gallery/gallery-06.webp" alt="Buceador">
-
-        </div>
-
-    </section>
-
-    <!-- ===================================== -->
-    <!-- EXPERIENCIAS                          -->
-    <!-- ===================================== -->
-
-    <section
-        id="experiencias"
-        class="experiences">
-
-        <div class="section-title">
-
-            <p>
-
-                AVENTURAS
-
-            </p>
-
-            <h2>
-
-                Cada inmersión es diferente
-
-            </h2>
-
-        </div>
-
-        <div class="experience-grid">
-
-            <article class="experience-card">
-
-                <img
-                    src="assets/images/boat.webp"
-                    alt="Salida en barco">
-
-                <div class="experience-info">
-
-                    <h3>
-
-                        Salidas en barco
-
-                    </h3>
-
-                    <p>
-
-                        Accede a zonas exclusivas alejadas de la costa.
-
-                    </p>
-
-                </div>
-
-            </article>
-
-            <article class="experience-card">
-
-                <img
-                    src="assets/images/night.webp"
-                    alt="Buceo nocturno">
-
-                <div class="experience-info">
-
-                    <h3>
-
-                        Buceo nocturno
-
-                    </h3>
-
-                    <p>
-
-                        Descubre un océano completamente distinto al caer la noche.
-
-                    </p>
-
-                </div>
-
-            </article>
-
-            <article class="experience-card">
-
-                <img
-                    src="assets/images/wreck.webp"
-                    alt="Pecios">
-
-                <div class="experience-info">
-
-                    <h3>
-
-                        Pecios históricos
-
-                    </h3>
-
-                    <p>
-
-                        Historia, fauna y aventura en una sola inmersión.
-
-                    </p>
-
-                </div>
-
-            </article>
-
-        </div>
-
-    </section>
-
-    <!-- ===================================== -->
-    <!-- TESTIMONIOS                           -->
-    <!-- ===================================== -->
-
-    <section class="testimonials">
-
-        <div class="section-title">
-
-            <p>
-
-                OPINIONES
-
-            </p>
-
-            <h2>
-
-                Lo que dicen nuestros buceadores
-
-            </h2>
-
-        </div>
-
-        <div class="testimonial-grid">
-
-            <article class="testimonial">
-
-                ⭐⭐⭐⭐⭐
-
-                <p>
-
-                    "Una experiencia increíble desde el primer minuto."
-
-                </p>
-
-                <h4>
-
-                    Laura M.
-
-                </h4>
-
-            </article>
-
-            <article class="testimonial">
-
-                ⭐⭐⭐⭐⭐
-
-                <p>
-
-                    "Material impecable y un equipo humano espectacular."
-
-                </p>
-
-                <h4>
-
-                    Pablo R.
-
-                </h4>
-
-            </article>
-
-            <article class="testimonial">
-
-                ⭐⭐⭐⭐⭐
-
-                <p>
-
-                    "Repetiremos sin ninguna duda."
-
-                </p>
-
-                <h4>
-
-                    Marta y Sergio
-
-                </h4>
-
-            </article>
-
-        </div>
-
-    </section>
-
-    <!-- ===================================== -->
-    <!-- CTA                                   -->
-    <!-- ===================================== -->
-
-    <section class="cta">
-
-        <div class="cta-overlay"></div>
-
-        <div class="cta-content">
-
-            <h2>
-
-                ¿Preparado para descubrir un mundo nuevo?
-
-            </h2>
-
-            <p>
-
-                Reserva hoy mismo tu experiencia y vive el Atlántico como nunca antes.
-
-            </p>
-
-            <a
-                href="contacto.html"
-                class="btn-primary">
-
-                Reservar experiencia
-
-            </a>
-
-        </div>
-
-    </section>
-
-    <!-- ===================================== -->
-    <!-- CONTACTO                              -->
-    <!-- ===================================== -->
-
-    <section
-        id="contacto"
-        class="contact">
-
-        <div class="contact-info">
-
-            <h2>
-
-                Contacta con nosotros
-
-            </h2>
-
-            <p>
-
-                Resolveremos cualquier duda sobre cursos, inmersiones o reservas.
-
-            </p>
-
-            <ul>
-
-                <li>📍 Ribeira · Galicia</li>
-
-                <li>📞 +34 600 000 000</li>
-
-                <li>✉ info@atlanticbluediving.com</li>
-
-            </ul>
-
-        </div>
-
-        <form
-            class="contact-form"
-            id="contact-form">
-
-            <input
-                type="text"
-                placeholder="Nombre"
-                required>
-
-            <input
-                type="email"
-                placeholder="Correo electrónico"
-                required>
-
-            <textarea
-                rows="6"
-                placeholder="¿Cómo podemos ayudarte?"
-                required></textarea>
-
-            <button
-                type="submit"
-                class="btn-primary">
-
-                Enviar mensaje
-
-            </button>
-
-        </form>
-
-    </section>
-
-    <!-- ===================================== -->
-    <!-- FOOTER                                -->
-    <!-- ===================================== -->
-
-    <footer>
-
-        <div class="footer-logo">
-
-            <h2>
-
-                Atlantic Blue Diving
-
-            </h2>
-
-            <p>
-
-                Vive el Atlántico con seguridad, experiencia y pasión.
-
-            </p>
-
-        </div>
-
-        <div class="footer-links">
-
-            <h3>
-
-                Navegación
-
-            </h3>
-
-            <a href="#inicio">Inicio</a>
-
-            <a href="cursos.html">Cursos</a>
-
-            <a href="galeria.html">Galería</a>
-
-            <a href="contacto.html">Contacto</a>
-
-        </div>
-
-        <div class="footer-social">
-
-            <h3>
-
-                Síguenos
-
-            </h3>
-
-            <a href="#">Instagram</a>
-
-            <a href="#">Facebook</a>
-
-            <a href="#">YouTube</a>
-
-        </div>
-
-    </footer>
-
-    <script src="js/navbar.js"></script>
-    <script src="js/main.js"></script>
-    <script src="js/gallery.js"></script>
-    <script src="js/contact.js"></script>
-
-</body>
-
-</html>
+    <!-- COMIENZA LA SECCIÓN DE SERVICIOS -->
