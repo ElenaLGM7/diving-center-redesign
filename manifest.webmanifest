@@ -1,0 +1,167 @@
+{
+    "id": "/",
+    "name": "Atlantic Blue Diving",
+    "short_name": "Atlantic Blue",
+    "description": "Centro de buceo moderno especializado en cursos, inmersiones guiadas y experiencias submarinas en la costa atlántica.",
+
+    "lang": "es",
+    "dir": "ltr",
+
+    "start_url": "/index.html",
+    "scope": "/",
+
+    "display": "standalone",
+    "orientation": "portrait-primary",
+
+    "background_color": "#071C2C",
+    "theme_color": "#0B4D73",
+
+    "categories": [
+        "travel",
+        "sports",
+        "education",
+        "lifestyle"
+    ],
+
+    "icons": [
+
+        {
+            "src": "assets/icons/icon-72x72.png",
+            "sizes": "72x72",
+            "type": "image/png",
+            "purpose": "any"
+        },
+
+        {
+            "src": "assets/icons/icon-96x96.png",
+            "sizes": "96x96",
+            "type": "image/png",
+            "purpose": "any"
+        },
+
+        {
+            "src": "assets/icons/icon-128x128.png",
+            "sizes": "128x128",
+            "type": "image/png",
+            "purpose": "any"
+        },
+
+        {
+            "src": "assets/icons/icon-144x144.png",
+            "sizes": "144x144",
+            "type": "image/png",
+            "purpose": "any"
+        },
+
+        {
+            "src": "assets/icons/icon-152x152.png",
+            "sizes": "152x152",
+            "type": "image/png",
+            "purpose": "any"
+        },
+
+        {
+            "src": "assets/icons/icon-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "any maskable"
+        },
+
+        {
+            "src": "assets/icons/icon-384x384.png",
+            "sizes": "384x384",
+            "type": "image/png",
+            "purpose": "any"
+        },
+
+        {
+            "src": "assets/icons/icon-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "any maskable"
+        }
+
+    ],
+
+    "screenshots": [
+
+        {
+            "src": "assets/screenshots/home-desktop.webp",
+            "sizes": "1440x900",
+            "type": "image/webp",
+            "form_factor": "wide",
+            "label": "Página principal de Atlantic Blue Diving"
+        },
+
+        {
+            "src": "assets/screenshots/home-mobile.webp",
+            "sizes": "430x932",
+            "type": "image/webp",
+            "form_factor": "narrow",
+            "label": "Versión móvil de Atlantic Blue Diving"
+        }
+
+    ],
+
+    "shortcuts": [
+
+        {
+            "name": "Cursos",
+            "short_name": "Cursos",
+            "description": "Consulta todos nuestros cursos de buceo.",
+            "url": "/cursos.html",
+            "icons": [
+                {
+                    "src": "assets/icons/shortcut-courses.png",
+                    "sizes": "192x192",
+                    "type": "image/png"
+                }
+            ]
+        },
+
+        {
+            "name": "Salidas",
+            "short_name": "Salidas",
+            "description": "Explora las próximas inmersiones guiadas.",
+            "url": "/salidas.html",
+            "icons": [
+                {
+                    "src": "assets/icons/shortcut-dives.png",
+                    "sizes": "192x192",
+                    "type": "image/png"
+                }
+            ]
+        },
+
+        {
+            "name": "Galería",
+            "short_name": "Galería",
+            "description": "Descubre imágenes del mundo submarino.",
+            "url": "/galeria.html",
+            "icons": [
+                {
+                    "src": "assets/icons/shortcut-gallery.png",
+                    "sizes": "192x192",
+                    "type": "image/png"
+                }
+            ]
+        },
+
+        {
+            "name": "Contacto",
+            "short_name": "Contacto",
+            "description": "Habla con nuestro equipo.",
+            "url": "/contacto.html",
+            "icons": [
+                {
+                    "src": "assets/icons/shortcut-contact.png",
+                    "sizes": "192x192",
+                    "type": "image/png"
+                }
+            ]
+        }
+
+    ],
+
+    "prefer_related_applications": false
+}
