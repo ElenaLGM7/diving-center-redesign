@@ -1,0 +1,1113 @@
+/* ==========================================================
+   ATLANTIC BLUE DIVING
+   MAIN STYLESHEET
+   ========================================================== */
+
+/* ===========================
+   RESET
+=========================== */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+
+    font-family:'Montserrat',sans-serif;
+    background:#071826;
+    color:#ffffff;
+    overflow-x:hidden;
+    line-height:1.7;
+
+}
+
+img{
+
+    display:block;
+    width:100%;
+
+}
+
+a{
+
+    text-decoration:none;
+
+}
+
+ul{
+
+    list-style:none;
+
+}
+
+/* ===========================
+   NAVBAR
+=========================== */
+
+header{
+
+    position:fixed;
+
+    width:100%;
+
+    top:0;
+
+    left:0;
+
+    z-index:999;
+
+}
+
+.navbar{
+
+    max-width:1400px;
+
+    margin:auto;
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    padding:22px 50px;
+
+    transition:.4s;
+
+}
+
+.navbar.scrolled{
+
+    background:rgba(8,32,54,.82);
+
+    backdrop-filter:blur(18px);
+
+    border-radius:18px;
+
+    margin-top:15px;
+
+    box-shadow:0 10px 30px rgba(0,0,0,.35);
+
+}
+
+.logo h2{
+
+    font-size:1.5rem;
+
+    font-weight:700;
+
+    color:white;
+
+    letter-spacing:1px;
+
+}
+
+.nav-links{
+
+    display:flex;
+
+    gap:35px;
+
+}
+
+.nav-links a{
+
+    color:white;
+
+    font-weight:500;
+
+    transition:.3s;
+
+    position:relative;
+
+}
+
+.nav-links a::after{
+
+    content:"";
+
+    position:absolute;
+
+    width:0;
+
+    height:2px;
+
+    background:#00D4FF;
+
+    left:0;
+
+    bottom:-6px;
+
+    transition:.3s;
+
+}
+
+.nav-links a:hover::after{
+
+    width:100%;
+
+}
+
+.nav-links a:hover{
+
+    color:#00D4FF;
+
+}
+
+/* ===========================
+   BOTONES
+=========================== */
+
+.btn-primary{
+
+    display:inline-block;
+
+    background:linear-gradient(135deg,#00B4D8,#0096C7);
+
+    color:white;
+
+    padding:15px 34px;
+
+    border-radius:50px;
+
+    font-weight:600;
+
+    transition:.35s;
+
+    box-shadow:0 15px 35px rgba(0,180,216,.35);
+
+}
+
+.btn-primary:hover{
+
+    transform:translateY(-4px);
+
+    box-shadow:0 22px 45px rgba(0,180,216,.45);
+
+}
+
+.btn-outline{
+
+    border:2px solid white;
+
+    color:white;
+
+    padding:14px 28px;
+
+    border-radius:50px;
+
+    transition:.35s;
+
+}
+
+.btn-outline:hover{
+
+    background:white;
+
+    color:#082036;
+
+}
+
+/* ===========================
+   HERO
+=========================== */
+
+.hero{
+
+    height:100vh;
+
+    position:relative;
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    overflow:hidden;
+
+}
+
+.hero video{
+
+    position:absolute;
+
+    width:100%;
+
+    height:100%;
+
+    object-fit:cover;
+
+}
+
+.hero-overlay{
+
+    position:absolute;
+
+    inset:0;
+
+    background:
+    linear-gradient(
+    rgba(4,18,35,.55),
+    rgba(4,18,35,.72)
+    );
+
+}
+
+.hero-content{
+
+    position:relative;
+
+    z-index:2;
+
+    text-align:center;
+
+    max-width:900px;
+
+    padding:20px;
+
+}
+
+.hero-pretitle{
+
+    letter-spacing:5px;
+
+    color:#8EE9FF;
+
+    font-weight:600;
+
+    margin-bottom:25px;
+
+}
+
+.hero h1{
+
+    font-size:4.4rem;
+
+    margin-bottom:30px;
+
+    line-height:1.1;
+
+}
+
+.hero p{
+
+    font-size:1.2rem;
+
+    opacity:.92;
+
+    margin-bottom:40px;
+
+}
+
+.hero-buttons{
+
+    display:flex;
+
+    justify-content:center;
+
+    gap:25px;
+
+}
+
+/* ==========================================================
+   SECTION TITLES
+========================================================== */
+
+section{
+
+    padding:120px 8%;
+
+    position:relative;
+
+}
+
+.section-title{
+
+    text-align:center;
+
+    margin-bottom:70px;
+
+}
+
+.section-title p{
+
+    color:#4DDFFF;
+
+    font-weight:700;
+
+    letter-spacing:4px;
+
+    text-transform:uppercase;
+
+    margin-bottom:15px;
+
+}
+
+.section-title h2{
+
+    font-size:3rem;
+
+    max-width:700px;
+
+    margin:auto;
+
+    line-height:1.2;
+
+}
+
+/* ==========================================================
+   SERVICES
+========================================================== */
+
+.services{
+
+    background:
+    linear-gradient(
+    180deg,
+    #071826 0%,
+    #0A2338 100%
+    );
+
+}
+
+.services-grid{
+
+    display:grid;
+
+    grid-template-columns:
+    repeat(auto-fit,minmax(320px,1fr));
+
+    gap:35px;
+
+}
+
+.service-card{
+
+    background:rgba(255,255,255,.05);
+
+    border:1px solid rgba(255,255,255,.08);
+
+    backdrop-filter:blur(10px);
+
+    border-radius:28px;
+
+    overflow:hidden;
+
+    transition:.45s;
+
+    box-shadow:0 18px 40px rgba(0,0,0,.18);
+
+}
+
+.service-card:hover{
+
+    transform:
+    translateY(-12px);
+
+    box-shadow:
+    0 30px 60px rgba(0,0,0,.35);
+
+}
+
+.service-card img{
+
+    height:250px;
+
+    object-fit:cover;
+
+}
+
+.service-card h3{
+
+    margin:30px 30px 15px;
+
+    font-size:1.6rem;
+
+}
+
+.service-card p{
+
+    margin:0 30px 25px;
+
+    opacity:.88;
+
+}
+
+.service-card a{
+
+    display:inline-block;
+
+    margin:0 30px 35px;
+
+    color:#59E5FF;
+
+    font-weight:700;
+
+}
+
+/* ==========================================================
+   ABOUT
+========================================================== */
+
+.about{
+
+    display:grid;
+
+    grid-template-columns:1fr 1fr;
+
+    gap:80px;
+
+    align-items:center;
+
+}
+
+.about-image{
+
+    border-radius:30px;
+
+    overflow:hidden;
+
+}
+
+.about-image img{
+
+    transition:.6s;
+
+}
+
+.about-image:hover img{
+
+    transform:scale(1.05);
+
+}
+
+.about-content h2{
+
+    font-size:3rem;
+
+    margin-bottom:25px;
+
+}
+
+.about-content p{
+
+    opacity:.9;
+
+    margin-bottom:20px;
+
+}
+
+.features{
+
+    margin:35px 0;
+
+}
+
+.features li{
+
+    margin-bottom:16px;
+
+}
+
+/* ==========================================================
+   STATS
+========================================================== */
+
+.stats{
+
+    display:grid;
+
+    grid-template-columns:
+    repeat(auto-fit,minmax(220px,1fr));
+
+    gap:30px;
+
+    text-align:center;
+
+    background:
+    linear-gradient(
+    135deg,
+    #082036,
+    #0C3152
+    );
+
+}
+
+.stat{
+
+    padding:45px;
+
+}
+
+.stat h2{
+
+    font-size:3.7rem;
+
+    color:#59E5FF;
+
+}
+
+.stat p{
+
+    margin-top:12px;
+
+    opacity:.9;
+
+}
+
+/* ==========================================================
+   GALLERY
+========================================================== */
+
+.gallery{
+
+    background:#071826;
+
+}
+
+.gallery-grid{
+
+    display:grid;
+
+    grid-template-columns:
+    repeat(3,1fr);
+
+    gap:18px;
+
+}
+
+.gallery-grid img{
+
+    border-radius:20px;
+
+    cursor:pointer;
+
+    transition:.45s;
+
+}
+
+.gallery-grid img:hover{
+
+    transform:scale(1.04);
+
+}
+
+/* ==========================================================
+   EXPERIENCES
+========================================================== */
+
+.experiences{
+
+    background:
+    linear-gradient(
+    180deg,
+    #071826,
+    #082844
+    );
+
+}
+
+.experience-grid{
+
+    display:grid;
+
+    grid-template-columns:
+    repeat(auto-fit,minmax(330px,1fr));
+
+    gap:35px;
+
+}
+
+.experience-card{
+
+    position:relative;
+
+    overflow:hidden;
+
+    border-radius:28px;
+
+    cursor:pointer;
+
+}
+
+.experience-card img{
+
+    height:460px;
+
+    object-fit:cover;
+
+    transition:.6s;
+
+}
+
+.experience-card:hover img{
+
+    transform:scale(1.08);
+
+}
+
+.experience-info{
+
+    position:absolute;
+
+    bottom:0;
+
+    width:100%;
+
+    padding:35px;
+
+    background:
+    linear-gradient(
+        transparent,
+        rgba(0,0,0,.88)
+    );
+
+}
+
+.experience-info h3{
+
+    font-size:2rem;
+
+    margin-bottom:12px;
+
+}
+
+/* ==========================================================
+   CTA
+========================================================== */
+
+.cta{
+
+    background:url("../assets/images/cta.webp")
+    center/cover;
+
+    min-height:500px;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    text-align:center;
+
+}
+
+.cta-overlay{
+
+    position:absolute;
+
+    inset:0;
+
+    background:
+    rgba(4,18,35,.72);
+
+}
+
+.cta-content{
+
+    position:relative;
+
+    z-index:2;
+
+    max-width:850px;
+
+}
+
+.cta h2{
+
+    font-size:3.4rem;
+
+    margin-bottom:25px;
+
+}
+
+.cta p{
+
+    font-size:1.2rem;
+
+    margin-bottom:40px;
+
+}
+
+/* ==========================================================
+   CONTACT
+========================================================== */
+
+.contact{
+
+    display:grid;
+
+    grid-template-columns:1fr 1fr;
+
+    gap:80px;
+
+}
+
+.contact-form{
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:20px;
+
+}
+
+.contact-form input,
+.contact-form textarea{
+
+    background:#0D2B45;
+
+    border:none;
+
+    border-radius:18px;
+
+    padding:20px;
+
+    color:white;
+
+    font-size:1rem;
+
+}
+
+.contact-form textarea{
+
+    resize:none;
+
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus{
+
+    outline:2px solid #00D4FF;
+
+}
+
+/* ==========================================================
+   FOOTER
+========================================================== */
+
+footer{
+
+    background:#04121F;
+
+    display:grid;
+
+    grid-template-columns:
+    2fr 1fr 1fr;
+
+    gap:60px;
+
+    padding:90px 8%;
+
+}
+
+footer h2{
+
+    margin-bottom:18px;
+
+}
+
+footer h3{
+
+    margin-bottom:22px;
+
+}
+
+footer a{
+
+    display:block;
+
+    color:#C7EFFF;
+
+    margin-bottom:14px;
+
+    transition:.3s;
+
+}
+
+footer a:hover{
+
+    color:#00D4FF;
+
+    transform:translateX(6px);
+
+}
+
+.footer-logo p{
+
+    max-width:380px;
+
+    opacity:.8;
+
+}
+
+/* ==========================================================
+   SCROLLBAR
+========================================================== */
+
+::-webkit-scrollbar{
+
+    width:12px;
+
+}
+
+::-webkit-scrollbar-track{
+
+    background:#04121F;
+
+}
+
+::-webkit-scrollbar-thumb{
+
+    background:#00B4D8;
+
+    border-radius:100px;
+
+}
+
+::-webkit-scrollbar-thumb:hover{
+
+    background:#48E2FF;
+
+}
+
+/* ==========================================================
+   FLOATING ACTION BAR
+========================================================== */
+
+.floating-bar{
+
+    position:fixed;
+
+    right:30px;
+
+    bottom:40px;
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:15px;
+
+    z-index:999;
+
+}
+
+.floating-bar a{
+
+    width:58px;
+
+    height:58px;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    border-radius:50%;
+
+    background:rgba(10,37,64,.82);
+
+    backdrop-filter:blur(14px);
+
+    color:#ffffff;
+
+    font-size:1.25rem;
+
+    transition:.35s;
+
+    box-shadow:0 10px 30px rgba(0,0,0,.25);
+
+}
+
+.floating-bar a:hover{
+
+    background:#00B4D8;
+
+    transform:translateY(-5px);
+
+}
+
+/* ==========================================================
+   WAVES
+========================================================== */
+
+.wave{
+
+    position:absolute;
+
+    left:0;
+
+    width:100%;
+
+    overflow:hidden;
+
+    line-height:0;
+
+}
+
+.wave svg{
+
+    display:block;
+
+    width:100%;
+
+    height:120px;
+
+}
+
+.wave-top{
+
+    top:-1px;
+
+}
+
+.wave-bottom{
+
+    bottom:-1px;
+
+    transform:rotate(180deg);
+
+}
+
+/* ==========================================================
+   BACKGROUND PARTICLES
+========================================================== */
+
+body::before{
+
+    content:"";
+
+    position:fixed;
+
+    inset:0;
+
+    pointer-events:none;
+
+    opacity:.06;
+
+    background-image:
+
+    radial-gradient(circle at 15% 30%, white 1px, transparent 1px),
+
+    radial-gradient(circle at 70% 40%, white 1px, transparent 1px),
+
+    radial-gradient(circle at 40% 80%, white 1px, transparent 1px),
+
+    radial-gradient(circle at 90% 20%, white 1px, transparent 1px);
+
+    background-size:
+
+    220px 220px,
+
+    300px 300px,
+
+    180px 180px,
+
+    260px 260px;
+
+    animation:particlesMove 40s linear infinite;
+
+}
+
+/* ==========================================================
+   IMAGE HOVER
+========================================================== */
+
+.gallery-grid img,
+.service-card img,
+.experience-card img{
+
+    filter:brightness(.92);
+
+}
+
+.gallery-grid img:hover,
+.service-card:hover img,
+.experience-card:hover img{
+
+    filter:
+
+    brightness(1.05)
+
+    saturate(1.15)
+
+    contrast(1.05);
+
+}
+
+/* ==========================================================
+   CUSTOM SELECTION
+========================================================== */
+
+::selection{
+
+    background:#00B4D8;
+
+    color:white;
+
+}
+
+/* ==========================================================
+   HERO SCROLL INDICATOR
+========================================================== */
+
+.scroll-indicator{
+
+    position:absolute;
+
+    bottom:35px;
+
+    left:50%;
+
+    transform:translateX(-50%);
+
+    color:white;
+
+    font-size:2rem;
+
+    animation:bounce 2s infinite;
+
+    z-index:5;
+
+}
+
+/* ==========================================================
+   HAMBURGER
+========================================================== */
+
+.hamburger{
+
+    display:none;
+
+    flex-direction:column;
+
+    cursor:pointer;
+
+    gap:6px;
+
+}
+
+.hamburger span{
+
+    width:28px;
+
+    height:3px;
+
+    background:white;
+
+    border-radius:20px;
+
+    transition:.35s;
+
+}
