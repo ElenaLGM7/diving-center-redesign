@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<urlset
+    xmlns="https://www.sitemaps.org/schemas/sitemap/0.9"
+    xmlns:xhtml="https://www.w3.org/1999/xhtml">
+
+    <!-- ======================================================
+         HOME
+    ======================================================= -->
+
+    <url>
+
+        <loc>https://atlanticbluediving.com/</loc>
+
+        <lastmod>2026-07-01</lastmod>
+
+        <changefreq>weekly</changefreq>
+
+        <priority>1.0</priority>
+
+        <xhtml:link
+            rel="alternate"
+            hreflang="es"
+            href="https://atlanticbluediving.com/" />
+
+        <xhtml:link
+            rel="alternate"
+            hreflang="en"
+            href="https://atlanticbluediving.com/" />
+
+        <xhtml:link
+            rel="alternate"
+            hreflang="gl"
+            href="https://atlanticbluediving.com/" />
+
+    </url>
+
+    <!-- ======================================================
+         CURSOS
+    ======================================================= -->
+
+    <url>
+
+        <loc>https://atlanticbluediving.com/cursos.html</loc>
+
+        <lastmod>2026-07-01</lastmod>
+
+        <changefreq>monthly</changefreq>
+
+        <priority>0.90</priority>
+
+        <xhtml:link
+            rel="alternate"
+            hreflang="es"
+            href="https://atlanticbluediving.com/cursos.html" />
+
+        <xhtml:link
+            rel="alternate"
+            hreflang="en"
+            href="https://atlanticbluediving.com/cursos.html" />
+
+        <xhtml:link
+            rel="alternate"
+            hreflang="gl"
+            href="https://atlanticbluediving.com/cursos.html" />
+
+    </url>
+
+    <!-- ======================================================
+         SALIDAS
+    ======================================================= -->
+
+    <url>
+
+        <loc>https://atlanticbluediving.com/salidas.html</loc>
+
+        <lastmod>2026-07-01</lastmod>
+
+        <changefreq>weekly</changefreq>
+
+        <priority>0.90</priority>
+
+        <xhtml:link
+            rel="alternate"
+            hreflang="es"
+            href="https://atlanticbluediving.com/salidas.html" />
+
+        <xhtml:link
+            rel="alternate"
+            hreflang="en"
+            href="https://atlanticbluediving.com/salidas.html" />
+
+        <xhtml:link
+            rel="alternate"
+            hreflang="gl"
+            href="https://atlanticbluediving.com/salidas.html" />
+
+    </url>
+
+    <!-- ======================================================
+         GALERÍA
+    ======================================================= -->
+
+    <url>
+
+        <loc>https://atlanticbluediving.com/galeria.html</loc>
+
+        <lastmod>2026-07-01</lastmod>
+
+        <changefreq>monthly</changefreq>
+
+        <priority>0.80</priority>
+
+        <xhtml:link
+            rel="alternate"
+            hreflang="es"
+            href="https://atlanticbluediving.com/galeria.html" />
+
+        <xhtml:link
+            rel="alternate"
+            hreflang="en"
+            href="https://atlanticbluediving.com/galeria.html" />
+
+        <xhtml:link
+            rel="alternate"
+            hreflang="gl"
+            href="https://atlanticbluediving.com/galeria.html" />
+
+    </url>
+
+    <!-- ======================================================
+         CONTACTO
+    ======================================================= -->
+
+    <url>
+
+        <loc>https://atlanticbluediving.com/contacto.html</loc>
+
+        <lastmod>2026-07-01</lastmod>
+
+        <changefreq>monthly</changefreq>
+
+        <priority>0.80</priority>
+
+        <xhtml:link
+            rel="alternate"
+            hreflang="es"
+            href="https://atlanticbluediving.com/contacto.html" />
+
+        <xhtml:link
+            rel="alternate"
+            hreflang="en"
+            href="https://atlanticbluediving.com/contacto.html" />
+
+        <xhtml:link
+            rel="alternate"
+            hreflang="gl"
+            href="https://atlanticbluediving.com/contacto.html" />
+
+    </url>
+
+</urlset>
