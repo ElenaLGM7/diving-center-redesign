@@ -1,0 +1,997 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <!-- ==========================================================
+         METADATOS
+    =========================================================== -->
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0">
+
+    <title>
+
+        Contacto | Atlantic Blue Diving
+
+    </title>
+
+    <meta
+        name="description"
+        content="Contacta con Atlantic Blue Diving para reservar cursos, inmersiones guiadas o resolver cualquier duda. Estaremos encantados de ayudarte a preparar tu próxima aventura submarina.">
+
+    <meta
+        name="robots"
+        content="index,follow">
+
+    <meta
+        name="theme-color"
+        content="#0B4D73">
+
+    <meta
+        property="og:type"
+        content="website">
+
+    <meta
+        property="og:title"
+        content="Contacto | Atlantic Blue Diving">
+
+    <meta
+        property="og:description"
+        content="Ponte en contacto con nuestro equipo y empieza a planificar tu próxima inmersión.">
+
+    <meta
+        property="og:image"
+        content="assets/images/og/contact.webp">
+
+    <meta
+        property="og:url"
+        content="https://atlanticbluediving.com/contacto.html">
+
+    <link
+        rel="canonical"
+        href="https://atlanticbluediving.com/contacto.html">
+
+    <link
+        rel="icon"
+        href="assets/icons/favicon.ico">
+
+    <link
+        rel="stylesheet"
+        href="assets/css/variables.css">
+
+    <link
+        rel="stylesheet"
+        href="assets/css/style.css">
+
+    <link
+        rel="stylesheet"
+        href="assets/css/animations.css">
+
+    <link
+        rel="stylesheet"
+        href="assets/css/responsive.css">
+
+</head>
+
+<body class="contact-page">
+
+    <!-- ==========================================================
+         LOADER
+    =========================================================== -->
+
+    <div
+        class="loader"
+        aria-hidden="true">
+
+        <div class="loader__spinner"></div>
+
+    </div>
+
+    <!-- ==========================================================
+         HEADER
+    =========================================================== -->
+
+    <header class="header">
+
+        <nav
+            class="navbar container"
+            aria-label="Principal">
+
+            <a
+                href="index.html"
+                class="logo"
+                aria-label="Atlantic Blue Diving">
+
+                Atlantic Blue
+                <span>Diving</span>
+
+            </a>
+
+            <button
+                class="nav-toggle"
+                aria-expanded="false"
+                aria-controls="navigation">
+
+                <span></span>
+                <span></span>
+                <span></span>
+
+            </button>
+
+            <div class="nav-overlay"></div>
+
+            <div
+                id="navigation"
+                class="nav-menu">
+
+                <ul class="nav-list">
+
+                    <li>
+                        <a
+                            href="index.html"
+                            class="nav-link"
+                            data-i18n="nav.home">
+
+                            Inicio
+
+                        </a>
+                    </li>
+
+                    <li>
+                        <a
+                            href="cursos.html"
+                            class="nav-link"
+                            data-i18n="nav.courses">
+
+                            Cursos
+
+                        </a>
+                    </li>
+
+                    <li>
+                        <a
+                            href="salidas.html"
+                            class="nav-link"
+                            data-i18n="nav.dives">
+
+                            Salidas
+
+                        </a>
+                    </li>
+
+                    <li>
+                        <a
+                            href="galeria.html"
+                            class="nav-link"
+                            data-i18n="nav.gallery">
+
+                            Galería
+
+                        </a>
+                    </li>
+
+                    <li>
+                        <a
+                            href="contacto.html"
+                            class="nav-link is-active"
+                            data-i18n="nav.contact">
+
+                            Contacto
+
+                        </a>
+                    </li>
+
+                </ul>
+
+                <div class="navbar-actions">
+
+                    <div class="language-selector">
+
+                        <button data-language="es">ES</button>
+                        <button data-language="en">EN</button>
+                        <button data-language="gl">GL</button>
+
+                    </div>
+
+                    <button
+                        class="theme-toggle"
+                        aria-label="Cambiar tema">
+
+                        🌙
+
+                    </button>
+
+                </div>
+
+            </div>
+
+        </nav>
+
+    </header>
+
+    <!-- ==========================================================
+         MAIN
+    =========================================================== -->
+
+    <main>
+
+        <!-- ======================================================
+             HERO
+        ======================================================= -->
+
+        <section class="page-hero">
+
+            <video
+                class="page-hero-video"
+                autoplay
+                muted
+                loop
+                playsinline
+                preload="metadata"
+                poster="assets/images/contact/hero.webp">
+
+                <source
+                    src="assets/videos/contact.mp4"
+                    type="video/mp4">
+
+            </video>
+
+            <div class="page-hero-overlay"></div>
+
+            <div class="container">
+
+                <div class="page-hero-content">
+
+                    <span
+                        class="eyebrow"
+                        data-i18n="contact.hero.eyebrow">
+
+                        Estamos aquí para ayudarte
+
+                    </span>
+
+                    <h1
+                        data-i18n="contact.hero.title">
+
+                        Hablemos de tu próxima aventura submarina
+
+                    </h1>
+
+                    <p
+                        class="hero-description"
+                        data-i18n="contact.hero.description">
+
+                        Tanto si quieres iniciarte en el buceo como si buscas
+                        una inmersión especial, nuestro equipo estará encantado
+                        de asesorarte y ayudarte a elegir la mejor experiencia.
+
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- ======================================================
+             INFORMACIÓN DE CONTACTO
+        ======================================================= -->
+
+        <section
+            class="section contact-overview"
+            aria-labelledby="contact-overview-title">
+
+            <div class="container">
+
+                <header class="section-header">
+
+                    <span
+                        class="section-eyebrow"
+                        data-i18n="contact.info.eyebrow">
+
+                        Contacta con nosotros
+
+                    </span>
+
+                    <h2
+                        id="contact-overview-title"
+                        data-i18n="contact.info.title">
+
+                        Estamos a un mensaje de distancia
+
+                    </h2>
+
+                </header>
+
+                <div class="contact-overview-grid">
+
+                    <article
+                        class="contact-card"
+                        data-reveal>
+
+                        <div
+                            class="contact-icon"
+                            aria-hidden="true">
+
+                            📍
+
+                        </div>
+
+                        <h3
+                            data-i18n="contact.info.location.title">
+
+                            Dirección
+
+                        </h3>
+
+                        <p>
+
+                            Porto Deportivo<br>
+                            Ribeira, Galicia
+
+                        </p>
+
+                    </article>
+
+                    <article
+                        class="contact-card"
+                        data-reveal>
+
+                        <div
+                            class="contact-icon"
+                            aria-hidden="true">
+
+                            ☎️
+
+                        </div>
+
+                        <h3
+                            data-i18n="contact.info.phone.title">
+
+                            Teléfono
+
+                        </h3>
+
+                        <p>
+
+                            +34 600 123 456
+
+                        </p>
+
+                    </article>
+
+                    <article
+                        class="contact-card"
+                        data-reveal>
+
+                        <div
+                            class="contact-icon"
+                            aria-hidden="true">
+
+                            ✉️
+
+                        </div>
+
+                        <h3
+                            data-i18n="contact.info.email.title">
+
+                            Correo electrónico
+
+                        </h3>
+
+                        <p>
+
+                            hello@atlanticbluediving.com
+
+                        </p>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- ======================================================
+             FORMULARIO
+             (continúa en la Parte 2)
+        ======================================================= -->
+
+              <!-- ======================================================
+             FORMULARIO DE CONTACTO
+        ======================================================= -->
+
+        <section
+            class="section contact-form-section"
+            aria-labelledby="contact-form-title">
+
+            <div class="container">
+
+                <div class="contact-layout">
+
+                    <div
+                        class="contact-form-wrapper"
+                        data-reveal>
+
+                        <header class="section-header">
+
+                            <span
+                                class="section-eyebrow"
+                                data-i18n="contact.form.eyebrow">
+
+                                Envíanos un mensaje
+
+                            </span>
+
+                            <h2
+                                id="contact-form-title"
+                                data-i18n="contact.form.title">
+
+                                Cuéntanos qué estás buscando
+
+                            </h2>
+
+                            <p
+                                class="section-description"
+                                data-i18n="contact.form.description">
+
+                                Responderemos lo antes posible para ayudarte a
+                                organizar tu próxima experiencia de buceo.
+
+                            </p>
+
+                        </header>
+
+                        <form
+                            class="contact-form"
+                            novalidate>
+
+                            <div class="form-grid">
+
+                                <div class="form-group">
+
+                                    <label
+                                        for="name"
+                                        data-i18n="contact.fields.name">
+
+                                        Nombre completo
+
+                                    </label>
+
+                                    <input
+                                        id="name"
+                                        name="name"
+                                        type="text"
+                                        autocomplete="name"
+                                        required>
+
+                                    <small
+                                        class="field-error"
+                                        hidden></small>
+
+                                </div>
+
+                                <div class="form-group">
+
+                                    <label
+                                        for="email"
+                                        data-i18n="contact.fields.email">
+
+                                        Correo electrónico
+
+                                    </label>
+
+                                    <input
+                                        id="email"
+                                        name="email"
+                                        type="email"
+                                        autocomplete="email"
+                                        required>
+
+                                    <small
+                                        class="field-error"
+                                        hidden></small>
+
+                                </div>
+
+                                <div class="form-group">
+
+                                    <label
+                                        for="phone"
+                                        data-i18n="contact.fields.phone">
+
+                                        Teléfono
+
+                                    </label>
+
+                                    <input
+                                        id="phone"
+                                        name="phone"
+                                        type="tel"
+                                        autocomplete="tel">
+
+                                    <small
+                                        class="field-error"
+                                        hidden></small>
+
+                                </div>
+
+                                <div class="form-group">
+
+                                    <label
+                                        for="subject"
+                                        data-i18n="contact.fields.subject">
+
+                                        Asunto
+
+                                    </label>
+
+                                    <input
+                                        id="subject"
+                                        name="subject"
+                                        type="text"
+                                        required>
+
+                                    <small
+                                        class="field-error"
+                                        hidden></small>
+
+                                </div>
+
+                            </div>
+
+                            <div class="form-group">
+
+                                <label
+                                    for="message"
+                                    data-i18n="contact.fields.message">
+
+                                    Mensaje
+
+                                </label>
+
+                                <textarea
+                                    id="message"
+                                    name="message"
+                                    rows="7"
+                                    required></textarea>
+
+                                <div
+                                    class="form-meta">
+
+                                    <small
+                                        class="message-counter">
+
+                                        0 / 1000
+
+                                    </small>
+
+                                    <small
+                                        class="field-error"
+                                        hidden></small>
+
+                                </div>
+
+                            </div>
+
+                            <div
+                                class="form-status"
+                                hidden></div>
+
+                            <button
+                                type="submit"
+                                class="btn btn-primary"
+                                data-label="Enviar mensaje"
+                                data-loading="Enviando...">
+
+                                Enviar mensaje
+
+                            </button>
+
+                        </form>
+
+                    </div>
+
+                    <aside
+                        class="contact-aside"
+                        data-reveal>
+
+                        <div class="contact-info-card">
+
+                            <h3
+                                data-i18n="contact.hours.title">
+
+                                Horario
+
+                            </h3>
+
+                            <ul>
+
+                                <li>
+
+                                    <strong>Lunes - Viernes</strong><br>
+
+                                    09:00 - 19:00
+
+                                </li>
+
+                                <li>
+
+                                    <strong>Sábado</strong><br>
+
+                                    09:00 - 18:00
+
+                                </li>
+
+                                <li>
+
+                                    <strong>Domingo</strong><br>
+
+                                    Bajo reserva
+
+                                </li>
+
+                            </ul>
+
+                        </div>
+
+                        <div class="contact-info-card">
+
+                            <h3
+                                data-i18n="contact.social.title">
+
+                                Síguenos
+
+                            </h3>
+
+                            <div
+                                class="social-links">
+
+                                <a
+                                    href="#"
+                                    aria-label="Instagram">
+
+                                    Instagram
+
+                                </a>
+
+                                <a
+                                    href="#"
+                                    aria-label="Facebook">
+
+                                    Facebook
+
+                                </a>
+
+                                <a
+                                    href="#"
+                                    aria-label="YouTube">
+
+                                    YouTube
+
+                                </a>
+
+                            </div>
+
+                        </div>
+
+                    </aside>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- ======================================================
+             MAPA
+             (continúa en la Parte 3)
+        ======================================================= -->
+
+              <!-- ======================================================
+             MAPA Y UBICACIÓN
+        ======================================================= -->
+
+        <section
+            class="section location-section"
+            aria-labelledby="location-title">
+
+            <div class="container">
+
+                <header class="section-header">
+
+                    <span
+                        class="section-eyebrow"
+                        data-i18n="contact.location.eyebrow">
+
+                        Encuéntranos
+
+                    </span>
+
+                    <h2
+                        id="location-title"
+                        data-i18n="contact.location.title">
+
+                        Estamos junto al océano
+
+                    </h2>
+
+                    <p
+                        class="section-description"
+                        data-i18n="contact.location.description">
+
+                        Nuestro centro está situado en el puerto deportivo,
+                        con acceso directo a las embarcaciones y a los
+                        principales puntos de inmersión de la costa.
+
+                    </p>
+
+                </header>
+
+                <div class="location-layout">
+
+                    <div class="location-map">
+
+                        <iframe
+                            title="Ubicación de Atlantic Blue Diving"
+                            src="https://www.google.com/maps/embed?pb="
+                            loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"
+                            allowfullscreen>
+
+                        </iframe>
+
+                    </div>
+
+                    <aside
+                        class="location-card"
+                        data-reveal>
+
+                        <h3
+                            data-i18n="contact.location.visit">
+
+                            Planifica tu visita
+
+                        </h3>
+
+                        <ul class="location-list">
+
+                            <li>
+
+                                🚗 Aparcamiento gratuito cercano
+
+                            </li>
+
+                            <li>
+
+                                🚤 Acceso directo al puerto
+
+                            </li>
+
+                            <li>
+
+                                ☕ Cafeterías y restaurantes a pocos metros
+
+                            </li>
+
+                            <li>
+
+                                🛍️ Zona comercial y paseo marítimo
+
+                            </li>
+
+                        </ul>
+
+                    </aside>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- ======================================================
+             CTA FINAL
+        ======================================================= -->
+
+        <section
+            class="section contact-cta">
+
+            <div class="container">
+
+                <div
+                    class="cta-banner"
+                    data-reveal>
+
+                    <span
+                        class="section-eyebrow"
+                        data-i18n="contact.cta.eyebrow">
+
+                        ¿Listo para dar el primer paso?
+
+                    </span>
+
+                    <h2
+                        data-i18n="contact.cta.title">
+
+                        Tu próxima aventura comienza con un mensaje
+
+                    </h2>
+
+                    <p
+                        data-i18n="contact.cta.description">
+
+                        Resolveremos todas tus dudas y te ayudaremos a elegir
+                        el curso o la salida que mejor se adapte a tu nivel.
+
+                    </p>
+
+                    <div class="cta-actions">
+
+                        <a
+                            href="cursos.html"
+                            class="btn btn-outline"
+                            data-i18n="contact.cta.courses">
+
+                            Ver cursos
+
+                        </a>
+
+                        <a
+                            href="salidas.html"
+                            class="btn btn-primary"
+                            data-i18n="contact.cta.dives">
+
+                            Ver salidas
+
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <!-- ==========================================================
+         FOOTER
+    =========================================================== -->
+
+    <footer class="footer">
+
+        <div class="container">
+
+            <div class="footer-content">
+
+                <div class="footer-brand">
+
+                    <h2>
+
+                        Atlantic Blue Diving
+
+                    </h2>
+
+                    <p
+                        data-i18n="footer.description">
+
+                        Formación, aventura y respeto por el océano desde el
+                        corazón de la costa atlántica.
+
+                    </p>
+
+                </div>
+
+                <nav
+                    class="footer-nav"
+                    aria-label="Navegación del pie de página">
+
+                    <a
+                        href="index.html"
+                        data-i18n="nav.home">
+
+                        Inicio
+
+                    </a>
+
+                    <a
+                        href="cursos.html"
+                        data-i18n="nav.courses">
+
+                        Cursos
+
+                    </a>
+
+                    <a
+                        href="salidas.html"
+                        data-i18n="nav.dives">
+
+                        Salidas
+
+                    </a>
+
+                    <a
+                        href="galeria.html"
+                        data-i18n="nav.gallery">
+
+                        Galería
+
+                    </a>
+
+                </nav>
+
+            </div>
+
+            <div class="footer-bottom">
+
+                <p>
+
+                    &copy; 2026 Atlantic Blue Diving.
+
+                    <span
+                        data-i18n="footer.rights">
+
+                        Todos los derechos reservados.
+
+                    </span>
+
+                </p>
+
+            </div>
+
+        </div>
+
+    </footer>
+
+    <!-- ==========================================================
+         SCHEMA.ORG
+    =========================================================== -->
+
+    <script type="application/ld+json">
+    {
+      "@context":"https://schema.org",
+      "@type":"LocalBusiness",
+      "name":"Atlantic Blue Diving",
+      "image":"https://atlanticbluediving.com/assets/images/og/contact.webp",
+      "url":"https://atlanticbluediving.com",
+      "telephone":"+34 600 123 456",
+      "email":"hello@atlanticbluediving.com",
+      "address":{
+        "@type":"PostalAddress",
+        "addressLocality":"Ribeira",
+        "addressRegion":"Galicia",
+        "addressCountry":"ES"
+      }
+    }
+    </script>
+
+    <!-- ==========================================================
+         JAVASCRIPT
+    =========================================================== -->
+
+    <script
+        src="assets/js/main.js"
+        defer></script>
+
+    <script
+        src="assets/js/navbar.js"
+        defer></script>
+
+    <script
+        src="assets/js/language.js"
+        defer></script>
+
+    <script
+        src="assets/js/contact.js"
+        defer></script>
+
+</body>
+
+</html>
