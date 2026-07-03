@@ -1,0 +1,429 @@
+{
+    "meta": {
+        "title": "Atlantic Blue Diving | Diving Centre in Galicia",
+        "description": "Professional diving centre in Galicia offering PADI courses, Discover Scuba Diving experiences and guided dives along the Atlantic coast.",
+        "keywords": "diving galicia, diving centre, PADI courses, discover scuba diving, guided dives, atlantic ocean",
+        "author": "Elena Guardia"
+    },
+
+    "navigation": {
+        "home": "Home",
+        "services": "Services",
+        "courses": "Courses",
+        "discover": "Discover Scuba",
+        "dives": "Guided Dives",
+        "gallery": "Gallery",
+        "contact": "Contact",
+        "about": "About Us",
+        "faq": "FAQ",
+        "book": "Book Now",
+        "language": "Language",
+        "theme": "Change Theme"
+    },
+
+    "hero": {
+        "pretitle": "GALICIA · ATLANTIC · PADI",
+        "title": "Discover a world that only a few people ever get to experience.",
+        "description": "From your very first breath underwater to advanced diving adventures, we offer unforgettable experiences for every level.",
+        "primaryButton": "Explore Experiences",
+        "secondaryButton": "Request Information",
+        "scroll": "Discover More"
+    },
+
+    "services": {
+        "section": "EXPERIENCES",
+        "title": "Choose Your Next Adventure",
+        "description": "Whether you've never dived before or you're ready for your next certification, we have the perfect experience waiting for you.",
+
+        "discover": {
+            "title": "Discover Scuba Diving",
+            "description": "Experience your very first dive accompanied by a certified instructor at all times.",
+            "button": "Learn More"
+        },
+
+        "courses": {
+            "title": "PADI Courses",
+            "description": "Earn internationally recognised certifications and continue your diving journey.",
+            "button": "View Courses"
+        },
+
+        "dives": {
+            "title": "Guided Dives",
+            "description": "Explore wrecks, walls, caves and some of the Atlantic's most spectacular dive sites.",
+            "button": "Discover"
+        }
+    },
+
+    "about": {
+        "section": "OVER 20 YEARS OF EXPERIENCE",
+        "title": "Your Safety Always Comes First.",
+        "description": "Our team consists of certified instructors with thousands of logged dives and a genuine passion for the ocean.",
+
+        "features": [
+            "Equipment inspected before every dive.",
+            "Small group sizes.",
+            "Diving insurance included.",
+            "Personalised training.",
+            "Optional underwater photography."
+        ],
+
+        "button": "Meet Our Team"
+    },
+
+    "marineLife": {
+        "section": "MARINE LIFE",
+        "title": "Some of the Species You May Encounter",
+
+        "species": {
+            "octopus": "Common Octopus",
+            "seahorse": "Seahorse",
+            "ray": "Ray",
+            "nudibranch": "Nudibranch"
+        }
+    },
+
+    "statistics": {
+        "dives": "Completed Dives",
+        "students": "Certified Divers",
+        "experience": "Years of Experience",
+        "rating": "Average Rating"
+    },
+
+    "gallery": {
+        "section": "GALLERY",
+        "title": "Discover the Atlantic from Beneath the Surface",
+        "description": "Every dive tells a different story. Here are just a few unforgettable moments captured beneath the waves.",
+
+        "images": {
+            "image1": "Octopus hidden among the rocks",
+            "image2": "School of fish",
+            "image3": "Diver exploring a shipwreck",
+            "image4": "Sea anemone",
+            "image5": "Atlantic ray",
+            "image6": "Seahorse",
+            "image7": "Colourful nudibranch",
+            "image8": "Underwater landscape"
+        }
+    },
+
+      "experiences": {
+        "section": "EXPERIENCES",
+        "title": "Experience the Ocean Like Never Before",
+
+        "boat": {
+            "title": "Boat Trips",
+            "description": "Reach exclusive dive sites accessible only by boat."
+        },
+
+        "night": {
+            "title": "Night Diving",
+            "description": "Discover a completely different underwater world after sunset."
+        },
+
+        "wreck": {
+            "title": "Historic Wrecks",
+            "description": "History, adventure and marine life combined in unforgettable dives."
+        }
+    },
+
+    "testimonials": {
+        "section": "REVIEWS",
+        "title": "What Our Divers Say",
+
+        "review1": {
+            "text": "My Discover Scuba Diving experience was incredible. I felt completely safe from the very first minute.",
+            "author": "Laura M."
+        },
+
+        "review2": {
+            "text": "Excellent equipment, perfect organisation and breathtaking dive sites.",
+            "author": "Pablo R."
+        },
+
+        "review3": {
+            "text": "We'll definitely come back next year. One of the highlights of our holiday.",
+            "author": "Marta & Sergio"
+        }
+    },
+
+    "cta": {
+        "section": "READY TO DIVE IN?",
+        "title": "Your Next Adventure Starts Underwater.",
+        "description": "Get in touch with us and find the perfect diving experience for you.",
+
+        "buttons": {
+            "primary": "Book Your Dive",
+            "secondary": "View Courses"
+        }
+    },
+
+    "contact": {
+        "section": "CONTACT",
+        "title": "Let's Talk About Your Next Dive",
+
+        "description": "Questions about our courses, Discover Scuba experiences or guided dives? We'd love to help.",
+
+        "address": {
+            "title": "Location",
+            "value": "Ribeira · A Coruña · Galicia · Spain"
+        },
+
+        "phone": {
+            "title": "Phone"
+        },
+
+        "email": {
+            "title": "Email"
+        }
+    },
+
+    "map": {
+        "section": "HOW TO FIND US",
+        "title": "Visit Our Diving Centre",
+        "loading": "Loading map..."
+    },
+
+    "footer": {
+        "description": "Exploring the Atlantic with passion, safety and respect for the marine environment.",
+
+        "navigation": {
+            "title": "Navigation"
+        },
+
+        "information": {
+            "title": "Information",
+            "privacy": "Privacy Policy",
+            "cookies": "Cookie Policy",
+            "legal": "Legal Notice"
+        },
+
+        "copyright": "© 2026 Atlantic Blue Diving · Designed and developed by Elena Guardia."
+    },
+
+    "buttons": {
+        "learnMore": "Learn More",
+        "discover": "Discover",
+        "book": "Book Now",
+        "contact": "Contact Us",
+        "send": "Send",
+        "viewCourses": "View Courses",
+        "seeGallery": "View Gallery",
+        "back": "Back",
+        "next": "Next",
+        "previous": "Previous",
+        "close": "Close",
+        "cancel": "Cancel",
+        "accept": "Accept",
+        "save": "Save",
+        "continue": "Continue",
+        "readMore": "Read More"
+    },
+
+    "forms": {
+        "name": "Full Name",
+        "email": "Email Address",
+        "phone": "Phone Number",
+        "experience": "Experience",
+
+        "options": {
+            "discover": "Discover Scuba Diving",
+            "course": "PADI Course",
+            "guidedDive": "Guided Dive",
+            "other": "Other Enquiry"
+        },
+
+        "message": "How can we help you?",
+        "submit": "Send Enquiry",
+
+        "placeholders": {
+            "name": "Enter your full name",
+            "email": "Enter your email address",
+            "phone": "Enter your phone number",
+            "message": "Write your message here..."
+        }
+    },
+
+    "validation": {
+        "required": "This field is required.",
+        "invalidEmail": "Please enter a valid email address.",
+        "invalidPhone": "Please enter a valid phone number.",
+        "messageShort": "Your message is too short.",
+        "messageLong": "Your message exceeds the maximum allowed length.",
+        "success": "Your enquiry has been sent successfully.",
+        "error": "Something went wrong. Please try again."
+    },
+
+    "notifications": {
+        "languageChanged": "Language updated.",
+        "themeChanged": "Theme updated.",
+        "offline": "You are currently offline.",
+        "online": "Connection restored.",
+        "loading": "Loading...",
+        "sending": "Sending..."
+    },
+
+      "errors": {
+        "404": {
+            "title": "Page Not Found",
+            "description": "The page you're looking for doesn't exist or has been moved.",
+            "button": "Back to Home"
+        },
+
+        "500": {
+            "title": "Internal Server Error",
+            "description": "Something went wrong. Please try again later."
+        },
+
+        "network": {
+            "title": "No Internet Connection",
+            "description": "Please check your internet connection and try again."
+        },
+
+        "language": {
+            "title": "Language Unavailable",
+            "description": "The selected language could not be loaded."
+        },
+
+        "form": {
+            "title": "Unable to Send Your Enquiry",
+            "description": "Please try again in a few minutes."
+        }
+    },
+
+    "cookies": {
+        "title": "We Use Cookies",
+
+        "description": "We use our own and third-party cookies to improve your browsing experience, analyse website traffic and personalise content.",
+
+        "accept": "Accept All",
+        "reject": "Reject",
+        "preferences": "Preferences",
+        "policy": "Learn More"
+    },
+
+    "theme": {
+        "light": "Light Mode",
+        "dark": "Dark Mode",
+        "auto": "System Default"
+    },
+
+    "accessibility": {
+        "skipToContent": "Skip to Main Content",
+        "openMenu": "Open Navigation Menu",
+        "closeMenu": "Close Navigation Menu",
+        "changeLanguage": "Change Language",
+        "changeTheme": "Change Theme",
+        "scrollTop": "Back to Top",
+        "closeLightbox": "Close Image",
+        "nextImage": "Next Image",
+        "previousImage": "Previous Image",
+        "playVideo": "Play Video",
+        "pauseVideo": "Pause Video"
+    },
+
+    "seo": {
+        "home": {
+            "title": "Atlantic Blue Diving | Diving Centre in Galicia",
+            "description": "PADI courses, Discover Scuba Diving experiences and guided dives along the Atlantic coast."
+        },
+
+        "discover": {
+            "title": "Discover Scuba Diving | Atlantic Blue Diving",
+            "description": "Experience your very first dive with certified instructors in complete safety."
+        },
+
+        "courses": {
+            "title": "PADI Courses | Atlantic Blue Diving",
+            "description": "Internationally recognised PADI certifications for every experience level."
+        },
+
+        "dives": {
+            "title": "Guided Dives | Atlantic Blue Diving",
+            "description": "Explore Atlantic wrecks, reefs, caves and unique marine ecosystems."
+        },
+
+        "gallery": {
+            "title": "Gallery | Atlantic Blue Diving",
+            "description": "Discover stunning underwater photography from our diving adventures."
+        },
+
+        "contact": {
+            "title": "Contact | Atlantic Blue Diving",
+            "description": "Contact Atlantic Blue Diving to book your next underwater adventure."
+        }
+    },
+
+    "months": {
+        "january": "January",
+        "february": "February",
+        "march": "March",
+        "april": "April",
+        "may": "May",
+        "june": "June",
+        "july": "July",
+        "august": "August",
+        "september": "September",
+        "october": "October",
+        "november": "November",
+        "december": "December"
+    },
+
+    "days": {
+        "monday": "Monday",
+        "tuesday": "Tuesday",
+        "wednesday": "Wednesday",
+        "thursday": "Thursday",
+        "friday": "Friday",
+        "saturday": "Saturday",
+        "sunday": "Sunday"
+    },
+
+    "common": {
+        "yes": "Yes",
+        "no": "No",
+        "open": "Open",
+        "close": "Close",
+        "search": "Search",
+        "filter": "Filter",
+        "loading": "Loading...",
+        "error": "Error",
+        "success": "Success",
+        "warning": "Warning",
+        "information": "Information",
+        "available": "Available",
+        "notAvailable": "Unavailable",
+        "comingSoon": "Coming Soon",
+        "moreInformation": "More Information",
+        "seeAll": "View All",
+        "showMore": "Show More",
+        "showLess": "Show Less",
+        "optional": "Optional",
+        "required": "Required"
+    },
+
+    "pwa": {
+        "install": {
+            "title": "Install Atlantic Blue Diving",
+            "description": "Install the app for faster access and a better experience.",
+            "button": "Install"
+        },
+
+        "offline": {
+            "title": "Offline Mode",
+            "description": "You're currently browsing offline. Some features may be unavailable."
+        },
+
+        "update": {
+            "title": "Update Available",
+            "description": "A new version of the application is ready to install.",
+            "button": "Update"
+        }
+    },
+
+    "lightbox": {
+        "counter": "Image {current} of {total}",
+        "close": "Close",
+        "next": "Next Image",
+        "previous": "Previous Image"
+    }
+}
